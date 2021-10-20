@@ -1,8 +1,8 @@
 | Source | Id | Dataset | Public | Licnese | URL |
 |:- |:- |:- |:- |:- |:- |
 | BExIS | Bexis-24867_2_data | "Plant functional trait shifts explain concurrent changes in the structure and function of grassland soil microbial communities"" Journal of Ecology" | Y | CC-BY-NC-4.0 | https://www.bexis.uni-jena.de/ddm/data/Showdata/24867?version=2 |
-| BExIS | Bexis-25126_2_data | "Aggregated species richness and habitat heterogeneity variables for testing the habitat-heterogeneity hypothesis |  2006-2018" | Y | CC-BY-NC-4.0 | https://www.bexis.uni-jena.de/ddm/data/Showdata/25126?version=2 |
-| BExIS | Bexis-25786_3_data | "Arthropod data from 150 grassland plots |  2008-2017 |  and 140 forest plots |  2008-2016 |  used in ""Arthropod decline in grasslands and forests is associated with drivers at landscape level"" |  Nature" | Y | CC-BY-NC-4.0 | https://www.bexis.uni-jena.de/ddm/data/Showdata/25786?version=3 |
+| BExIS | Bexis-25126_2_data | Aggregated species richness and habitat heterogeneity variables for testing the habitat-heterogeneity hypothesis, 2006-2018 | Y | CC-BY-NC-4.0 | https://www.bexis.uni-jena.de/ddm/data/Showdata/25126?version=2 |
+| BExIS | Bexis-25786_3_data | Arthropod data from 150 grassland plots, 2008-2017, and 140 forest plots, 2008-2016, used in Arthropod decline in grasslands and forests is associated with drivers at landscape level, Nature | Y | CC-BY-NC-4.0 | https://www.bexis.uni-jena.de/ddm/data/Showdata/25786?version=3 |
 | BExIS | Bexis-27226_4_data | Trap nesting solitary bee species measured on all grassland VIPs 2017-2018 | Y | CC-BY-NC-4.0 | https://www.bexis.uni-jena.de/ddm/data/Showdata/27226?version=4 |
 | BExIS | Bexis-27227_2_data | Fatty acids in pollen of Osmia bicornis larval provisions 2017-2018 | Y | CC-BY-NC-4.0 | https://www.bexis.uni-jena.de/ddm/data/Showdata/27227?version=2 |
 | BExIS | Bexis-27228_2_data | Amino acids in pollen of Osmia bicornis larval provisions 2017-2018 | Y | CC-BY-NC-4.0 | https://www.bexis.uni-jena.de/ddm/data/Showdata/27228?version=2 |
