@@ -20,9 +20,9 @@
 ## Datasets Citation
 * The following is the datasets citation per data source.
 * Not all the used datasets have a citiation, we make the use of the avaiable only 
-### BExIS datasets 
-`
-@dataset{bexis_24867,
+### BExIS datasets
+
+`@dataset{bexis_24867,
 	author       = {Boeddinghaus, Runa and
 	Marhan, Sven and 
 	Berner, Doreen and
@@ -45,11 +45,9 @@
 	publisher    = {Biodiversity Exploratories Information System},
 	version      = 2,
 	doi          = {10.25829/bexis.24867-1.1.23},
-	
-}
-`
-`
-@dataset{bexis_25126,
+}`
+
+`@dataset{bexis_25126,
 	author       = {
 	Fischer, Markus and
 	Nauss, Thomas and		
@@ -62,13 +60,10 @@
 	publisher    = {Biodiversity Exploratories Information System},
 	version      = 2,
 	doi          = {10.25829/bexis.25126-1},
-	
-}
-`
-`
-@dataset{bexis_25786,
+}`
+
+`@dataset{bexis_25786,
 	author       = {
-		
 	Seibold, Sebastian  and
 	Go{\"s}ner, Martin and
 	Simons, Nadja and
@@ -96,11 +91,9 @@
 	publisher    = {Biodiversity Exploratories Information System},
 	version      = 3,
 	doi          = {10.25829/bexis.25786-1.3.11},
-	
-}
-`
-`
-@dataset{bexis_27226,
+}`
+
+`@dataset{bexis_27226,
 	author       = {
 	Leonhardt, Sara and
 	Peters, Birte and		
@@ -111,11 +104,9 @@
 	publisher    = {Biodiversity Exploratories Information System},
 	version      = 4,
 	doi          = {10.25829/bexis.27226-4},
-	
-}
-`
-`
-@dataset{bexis_27227,
+}`
+
+`@dataset{bexis_27227,
 	author       = {
 	Leonhardt, Sara and
 	Peters, Birte and		
@@ -126,10 +117,9 @@
 	publisher    = {Biodiversity Exploratories Information System},
 	version      = 2,
 	doi          = {10.25829/bexis.27227-2},	
-}
-`
-`
-@dataset{bexis_27228,
+}`
+
+`@dataset{bexis_27228,
 	author       = {
 	Leonhardt, Sara and
 	Peters, Birte and		
@@ -140,13 +130,11 @@
 	publisher    = {Biodiversity Exploratories Information System},
 	version      = 2,
 	doi          = {10.25829/bexis.27228-4},
-	
-}
-`
+}`
+
 ### BEF-China
 
-`
-@Article{befchina_staab,
+`@Article{befchina_staab,
 	author       = {
 	Staab, M. and
 	Schuldt, A. and 
@@ -159,11 +147,9 @@
 	publisher    = {Acta Oecologica},
 	issue      = 61,
 	pages = {32--40},
-	
-}
-`
-`
-@dataset{befchina_wubet,
+}`
+
+`@dataset{befchina_wubet,
 	author       = {
 	Wubet, T. and
 	Wu, Y.T. and 
@@ -173,11 +159,9 @@
 	year         = 2013,
 	publisher    = {BEF-China data portal},
 	url          = {http://china.befdata.biow.uni-leipzig.de/datasets/397},
-	
-}
-`
-`
-@dataset{befchina_nadrowski,
+}`
+
+`@dataset{befchina_nadrowski,
 	author       = {
 	Nadrowski, K.	
 	},
@@ -185,11 +169,9 @@
 	year         = 2013,
 	publisher    = {BEF-China data portal},
 	url          = {http://china.befdata.biow.uni-leipzig.de/datasets/327},
-	
-}
-`
-`
-@dataset{befchina_helge,
+}`
+
+`@dataset{befchina_helge,
 	author       = {
 	Bruelheide, Helge	and
 	Eichenberg,	David and
@@ -201,9 +183,7 @@
 	year         = 2012,
 	publisher    = {BEF-China data portal},
 	url          = {https://china.befdata.biow.uni-leipzig.de/datasets/323},
-	
-}
-`
+}`
 
 ## Acknowledgment 
 * The authors thank the Carl Zeiss Foundation for the financial support of the project \enquote{A Virtual Werkstatt for Digitization in the Sciences (P5)} within the scope of the program line \enquote{Breakthroughs: Exploring Intelligent Systems} for \enquote{Digitization - explore the basics, use applications}.
