@@ -47,7 +47,8 @@
 	doi          = {10.25829/bexis.24867-1.1.23},
 	
 }
-
+`
+`
 @dataset{bexis_25126,
 	author       = {
 	Fischer, Markus and
@@ -63,7 +64,8 @@
 	doi          = {10.25829/bexis.25126-1},
 	
 }
-
+`
+`
 @dataset{bexis_25786,
 	author       = {
 		
@@ -96,7 +98,8 @@
 	doi          = {10.25829/bexis.25786-1.3.11},
 	
 }
-
+`
+`
 @dataset{bexis_27226,
 	author       = {
 	Leonhardt, Sara and
@@ -110,7 +113,8 @@
 	doi          = {10.25829/bexis.27226-4},
 	
 }
-
+`
+`
 @dataset{bexis_27227,
 	author       = {
 	Leonhardt, Sara and
@@ -121,10 +125,10 @@
 	year         = 2020,
 	publisher    = {Biodiversity Exploratories Information System},
 	version      = 2,
-	doi          = {10.25829/bexis.27227-2},
-	
+	doi          = {10.25829/bexis.27227-2},	
 }
-
+`
+`
 @dataset{bexis_27228,
 	author       = {
 	Leonhardt, Sara and
@@ -157,7 +161,8 @@
 	pages = {32--40},
 	
 }
-
+`
+`
 @dataset{befchina_wubet,
 	author       = {
 	Wubet, T. and
@@ -170,7 +175,8 @@
 	url          = {http://china.befdata.biow.uni-leipzig.de/datasets/397},
 	
 }
-
+`
+`
 @dataset{befchina_nadrowski,
 	author       = {
 	Nadrowski, K.	
@@ -181,7 +187,8 @@
 	url          = {http://china.befdata.biow.uni-leipzig.de/datasets/327},
 	
 }
-
+`
+`
 @dataset{befchina_helge,
 	author       = {
 	Bruelheide, Helge	and
