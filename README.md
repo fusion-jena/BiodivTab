@@ -1,4 +1,5 @@
-# BiodivTab
+# BiodivTab [![DOI:10.5281/5584180](https://zenodo.org/badge/doi/10.5281/zenodo.5584180.svg)](https://zenodo.org/record/5584180)
+
 * BiodivTab is a domain spcific tabular data benchmark for semantic table annotation tasks.
 * It is based on biodiversity research data and data augmentation and consists of 50 tables.
 * Target Knowledge Graph (KG) is **Wikidata**
