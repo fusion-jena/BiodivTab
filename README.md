@@ -8,6 +8,8 @@
   * CEA - Cell Entity Annotation, matches individual cells to entities from knowledge graph
   * CTA - Column Type Annotation, assigns a semantic column type.
 
+![1st Prize @SemTab2021 Applications Track](images/certificate.png "1st Prize @SemTab2021 Applications Track")
+
 ## Citation 
 `
 @inproceedings{biodivTab,
@@ -200,7 +202,7 @@
 }`
 
 ## Acknowledgment 
-* The authors thank the Carl Zeiss Foundation for the financial support of the project \enquote{A Virtual Werkstatt for Digitization in the Sciences (P5)} within the scope of the program line \enquote{Breakthroughs: Exploring Intelligent Systems} for \enquote{Digitization - explore the basics, use applications}.
+* The authors thank the Carl Zeiss Foundation for the financial support of the project "A Virtual Werkstatt for Digitization in the Sciences (P5)} within the scope of the program line \enquote{Breakthroughs: Exploring Intelligent Systems" for "Digitization - explore the basics, use applications".
 We would like to especially thank our Biodiversity experts Cornelia Fürstenau and Andreas Ostrowski for feedback on and validation of the created annotations.
 Last but not least, we would like Samira Babalou for the fruitful discussion during the work.
 
