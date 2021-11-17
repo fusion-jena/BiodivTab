@@ -8,7 +8,7 @@
   * CEA - Cell Entity Annotation, matches individual cells to entities from knowledge graph
   * CTA - Column Type Annotation, assigns a semantic column type.
 
-![1st Prize @SemTab2021 Applications Track!](images/certificate.png)
+![SemTab2021 Applications Track!](images/certificate.png)
 
 ## Citation 
 `
