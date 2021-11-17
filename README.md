@@ -16,6 +16,19 @@
 	booktitle={SemTab@ISWC, submitted},
 	year={2021}
 }
+
+@dataset{nora_abdelmageed_2021_5584180,
+  author       = {Nora Abdelmageed and
+                  Sirko Schindler and
+                  Birgitta König-Ries},
+  title        = {fusion-jena/BiodivTab},
+  month        = oct,
+  year         = 2021,
+  publisher    = {Zenodo},
+  version      = {v0.1\_2021},
+  doi          = {10.5281/zenodo.5584180},
+  url          = {https://doi.org/10.5281/zenodo.5584180}
+}
 `
 
 ## Datasets Citation
