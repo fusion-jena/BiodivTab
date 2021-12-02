@@ -17,9 +17,9 @@
 	author={Abdelmageed, Nora and Schindler, Sirko and K{\"o}nig-Ries, Birgitta},
 	booktitle={SemTab@ISWC, submitted},
 	year={2021}
-}
+}`
 
-@dataset{nora_abdelmageed_2021_5584180,
+`@dataset{nora_abdelmageed_2021_5584180,
   author       = {Nora Abdelmageed and
                   Sirko Schindler and
                   Birgitta König-Ries},
