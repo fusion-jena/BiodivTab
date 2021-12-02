@@ -11,8 +11,8 @@
 ![SemTab2021 Applications Track!](images/certificate.png)
 
 ## Citation 
-`
-@inproceedings{biodivTab,
+
+`@inproceedings{biodivTab,
 	title={{BiodivTab: A Tabular Benchmark based on Biodiversity Research Data}},
 	author={Abdelmageed, Nora and Schindler, Sirko and K{\"o}nig-Ries, Birgitta},
 	booktitle={SemTab@ISWC, submitted},
@@ -30,8 +30,7 @@
   version      = {v0.1\_2021},
   doi          = {10.5281/zenodo.5584180},
   url          = {https://doi.org/10.5281/zenodo.5584180}
-}
-`
+}`
 
 ## Datasets Citation
 * The following is the datasets citation per data source.
