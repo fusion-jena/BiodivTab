@@ -1,4 +1,5 @@
-# BiodivTab [![DOI:10.5281/5584180](https://zenodo.org/badge/doi/10.5281/zenodo.5584180.svg)](https://zenodo.org/record/5584180)
+# BiodivTab [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6461556.svg)](https://doi.org/10.5281/zenodo.6461556)
+
 
 * BiodivTab is a domain-specific tabular data benchmark for semantic table annotation (STA) tasks.
 * It is based on biodiversity research data and data augmentation and consists of 50 tables.
@@ -40,6 +41,13 @@
 * Afterwards, we glue all the individual targets and gt (initially provided by each table) into a final output, as shown in [/targets](/benchmark/targets) and [/gt](/benchmark/gt)
 * In addition, concerning CTA task, we have constructed `CTA_biodivtab_2021_WD_gt_ancestor.json`. It is a json file that lists all correct (Okay classes) for a given class/solution. We have considered 3 levels up as a generalization thershold. 
 * Finally, we have analyzed the content of the benchmark and other SOTA in terms of the size, we have implemented [\scripts\statistics_scripts](/scripts/statistics_scripts)
+
+## Data Issues Fix
+* Recently we discovered the following data issues concerning gt and fixed them. Such fixes are included here already:
+  * extra empty spaces. 
+  * empty target columns/cells.
+  * Inconsistent usage of NIL for empty values.
+  * Wrong values, used '0' instead of NIL
 
 ## Citation 
 `
