@@ -35,8 +35,10 @@
 * We have selected 13 tables from three biodiversity portals each of which is manually annotated for both CEA and CTA tasks from Wikidata in the duration of Juna - August 2021.
   * The solved individuals are given for reference under [\input_data](\input_data)
 * For each table we have applied a set of data augmentation techniques given by  [\scripts\augment](\scripts\augment)
+  * e.g., `augment_befchina_1.py` shows the augmentation techniques that are applied on `befchina_1.csv` (you can find it under [\input_data](\input_data))
 * Then, we have anonymized the file names using `python UUID` as shown at [\scripts\reconcile](\scripts\reconcile), the output is presented [/tables](/benchmark/tables)
 * Afterwards, we glue all the individual targets and gt (initially provided by each table) into a final output, as shown in [/targets](/benchmark/targets) and [/gt](/benchmark/gt)
+* In addition, concerning CTA task, we have constructed `CTA_biodivtab_2021_WD_gt_ancestor.json`. It is a json file that lists all correct (Okay classes) for a given class/solution. We have considered 3 levels up as a generalization thershold. 
 * Finally, we have analyzed the content of the benchmark and other SOTA in terms of the size, we have implemented [\scripts\statistics_scripts](/scripts/statistics_scripts)
 
 ## Citation 
