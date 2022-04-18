@@ -1,6 +1,7 @@
-# BiodivTab [![DOI:10.5281/5584180](https://zenodo.org/badge/doi/10.5281/zenodo.5584180.svg)](https://zenodo.org/record/5584180)
+# BiodivTab [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6461556.svg)](https://doi.org/10.5281/zenodo.6461556)
 
-* BiodivTab is a domain spcific tabular data benchmark for semantic table annotation tasks.
+
+* BiodivTab is a domain-specific tabular data benchmark for semantic table annotation (STA) tasks.
 * It is based on biodiversity research data and data augmentation and consists of 50 tables.
 * Target Knowledge Graph (KG) is **Wikidata**
 * It is made avaiable for participants of [SemTab 2021 challenge](https://www.cs.ox.ac.uk/isg/challenges/sem-tab/2021/index.html), Round 3.
@@ -9,6 +10,44 @@
   * CTA - Column Type Annotation, assigns a semantic column type.
 
 ![SemTab2021 Applications Track!](images/certificate.png)
+
+## Semantic Table Annotation (STA) Tasks
+* The following figure illsutrates the STA tasks using a biodiversity domain example
+* (a) CEA - Cell Entity Annotation, maps an individual cell into a knowledge graph entity/mention
+* (b) CTA - Column Type Annotation, maps a table column to a knowledge graph class.
+* (c) CPA - Column-Column property Annotation, links a column pair to a knowledge graph property/semantic relation.   
+* ![STA Tasks!](images/sta_tasks.png)
+
+## BiodivTab Structure & How to Use?
+* BiodivTab [/biodivtab_benchmark](/benchmark) or  [zenodo](https://zenodo.org) consists of three folds:
+  * If you have an STA system and you want to evaluate using BiodivTab, you should place each fold in the corresponding correct directory at your workspace.
+  * [/tables](/benchmark/tables): 50 tables, 13  collected from the biodiversity data portals + 37 augmented based on the collected ones.
+  * [/targets](/benchmark/targets): 
+    * `BioDiv_CEA_WD_Round3_Targets.csv`: lists the required cells to be annotated (CEA task, see above)
+    * `BioDiv_CTA_WD_Round3_Targets.csv`: lists the required columns to be annotated (CTA task, see above) 
+  * [/gt](/benchmark/gt) (ground truth): 
+    * contains the actual solutions/answers for the [/targets](/benchmark/targets) CEA and CTA tasks
+    * provides a json files `CTA_biodivtab_2021_WD_gt_ancestor.json` that includes a three-level of ancestors for CTA task as correct solution with different weight.
+    * An evaluator code is provided by SemTab2021 organizers is available [Evaluator_2021](https://github.com/sem-tab-challenge/aicrowd-evaluator/tree/master/Evaluator_2021) 
+
+## BiodivTab Construction
+![BiodivTab pipeline!](images/pipeline.png)
+* The figure above explains our pipeline to construct the benchmark.
+* We have selected 13 tables from three biodiversity portals each of which is manually annotated for both CEA and CTA tasks from Wikidata in the duration of Juna - August 2021.
+  * The solved individuals are given for reference under [\input_data](\input_data)
+* For each table we have applied a set of data augmentation techniques given by  [\scripts\augment](\scripts\augment)
+  * e.g., `augment_befchina_1.py` shows the augmentation techniques that are applied on `befchina_1.csv` (you can find it under [\input_data](\input_data))
+* Then, we have anonymized the file names using `python UUID` as shown at [\scripts\reconcile](\scripts\reconcile), the output is presented [/tables](/benchmark/tables)
+* Afterwards, we glue all the individual targets and gt (initially provided by each table) into a final output, as shown in [/targets](/benchmark/targets) and [/gt](/benchmark/gt)
+* In addition, concerning CTA task, we have constructed `CTA_biodivtab_2021_WD_gt_ancestor.json`. It is a json file that lists all correct (Okay classes) for a given class/solution. We have considered 3 levels up as a generalization thershold. 
+* Finally, we have analyzed the content of the benchmark and other SOTA in terms of the size, we have implemented [\scripts\statistics_scripts](/scripts/statistics_scripts)
+
+## Data Issues Fix
+* Recently we discovered the following data issues concerning gt and fixed them. Such fixes are included here already:
+  * extra empty spaces. 
+  * empty target columns/cells.
+  * Inconsistent usage of NIL for empty values.
+  * Wrong values, used '0' instead of NIL
 
 ## Citation 
 
