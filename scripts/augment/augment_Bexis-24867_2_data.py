@@ -36,7 +36,7 @@ if __name__ == '__main__':
     if not exists(augmented_path):
         makedirs(augmented_path)
 
-    data_path = join(realpath('.'), 'data')
+    data_path = realpath(join(realpath('.'), '..', '..', 'input_data', 'bexis'))
 
     # # change headers
     # df = pd.read_excel(join(data_path, filename, filename + '.xlsx'))

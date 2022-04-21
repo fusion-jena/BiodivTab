@@ -7,13 +7,11 @@ import random
 if __name__ == '__main__':
     filename = 'befchina_1'
 
-    augmented_path = join(realpath('.'), 'augmented',filename)
+    augmented_path = join(realpath('.'), 'augmented', filename)
     if not exists(augmented_path):
         makedirs(augmented_path)
 
-    data_path = join(realpath('.'), 'data')
-
-
+    data_path = realpath(join(realpath('.'), '..', '..', 'input_data', 'befchina'))
 
     # change month into Year + changing format
     df = pd.read_excel(join(data_path, filename, filename + '.xlsx'))
